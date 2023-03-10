@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.container{
+    width: 600px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 10px solid gray;
+    border-radius: 10px;
+}
+.item{
+    display: flex;
+    margin: 11px;
+    border: 1px solid black;
+    border-radius: 15px 15px;
+}
+.btn{
+    margin-bottom: 10px;
+    
+}
+#game{
+    display: grid;
+    place-items: center;
+}
